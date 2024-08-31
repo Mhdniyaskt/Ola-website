@@ -1,0 +1,68 @@
+.nav-item{
+    margin-left: 50px;
+
+}
+.bg-image{
+    background-image: url(https://cdn.olaelectric.com/sites/evdp/pages/home/homepage_subsidy_banner_web_image_v3.webp);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+@media (max-width: 768px ){
+    .bg-image {
+        min-height: 90vh;
+    }
+}
+.btn button{
+    width: 202px;
+    height: 56px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.img-md{
+    display: none;
+}
+@media(min-width: 768px){
+    .img-sm{
+        display: none;
+    }
+    .img-md{
+        display: block;
+    }
+}
+.heading h1{
+    font-weight: bold;
+    font-size:45px ;
+    color: #18334d;
+    line-height: 60px;
+    
+    margin-top: 100px;
+}
+.para .para1{
+    font-family: Gentona-SemiBold-Italic;
+    font-size: 25px !important;
+    letter-spacing: normal;
+    color: #18334d;
+    line-height: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.para .para2{
+    font-size: larger;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.list ul li{
+
+    margin-top: 15px;
+    
+}
+
+.icons a{
+    margin-left: 15px;
+
+}
